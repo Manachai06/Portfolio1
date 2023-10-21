@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(9, 154, 238);
+    background-size: cover;  
+    background-image:url(b2.jpg);
+}
+.topnav 
+{ 
+    color: rgb(6, 6, 6);
+    background-size: 1800px;
+    background-repeat: no-repeat; /* กันรูปซ้อน */
+    padding: 40px;
+    display: flex;
+}
+.center h4{
+    text-align: center;
+    font-size: 5rem;
+    margin-top: auto;
+    width: 400px;
+    margin-left: 600px;
+    margin-bottom: auto;  
+    margin-right: auto;
+    padding: 50px;
+}
+.container
+{   
+
+   display: flex;  
+}
+.L,.RR
+{   
+    background-color: rgb(185, 213, 241);
+    padding: 30px;    /* ระยะห่างตัวหนังสือจากขอบขาว */  
+    font-family: Arial, Helvetica, scans-serif;
+    font-size: 20px;
+    flex: 0 0 50%;
+}
+.L{
+    margin-top: 50px;
+    margin-bottom: 100px;  
+}
+.RR{
+    margin-left: 60px;
+    margin-bottom: 20px;
+    margin-top: 50px;    
+}
+.Education{
+    list-style-type:square;
+}
+.Skill{
+    list-style-type: circle;
+}
+.picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;    
+}
+.MA{
+    padding: 10px;
+    margin-left:60px;
+    font-size: 40px;
+}
+h2{
+    background:rgb(5, 5, 234);
+    color:white;
+    border: #000000;
+    margin-block-start: 15px;
+}
+.button h1
+{
+    background: rgb(113, 242, 222);
+    text-align: center;
+}
+.center h4
+{
+    text-align: center;
+    color: #000000;
+    animation: text-animation 10s infinite;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+@keyframes text-animation 
+{
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(-15%);
+    }
+}
